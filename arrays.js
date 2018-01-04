@@ -25,13 +25,12 @@ function addElementToEndOfArray(array, element) {
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
-  var numbers = [1]
-  numbers.push ('foo')
-  return numbers
+  array.push ('foo')
+  return array
 }
 
 function accessElementInArray(array, element) {
-  var numbers = [1]
+  
 }
 
 function destructivelyRemoveElementFromBeginningOfArray() {
