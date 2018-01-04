@@ -10,19 +10,23 @@ var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
 function addElementToBeginningOfArray() {
   var numbers = [1]
   numbers = ['foo',...numbers]
+  return numbers
 }
 
 function destructivelyAddElementToBeginningOfArray() {
   var numbers = [1]
   numbers.unshift ('foo')
+  return numbers
 }
 
 function addElementToEndOfArray() {
   var numbers = [1]
   numbers = [...numbers, 'foo']
+  return numbers
 }
 
 function destructivelyAddElementToEndOfArray() {
   var numbers = [1]
   numbers.push ('foo')
+  return numbers
 }
