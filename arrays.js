@@ -21,3 +21,8 @@ function addElementToEndOfArray() {
   var numbers = [1]
   numbers = [...numbers, 'foo']
 }
+
+function destructivelyAddElementToEndOfArray() {
+  var numbers = [1]
+  numbers.push ('foo')
+}
