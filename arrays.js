@@ -13,25 +13,25 @@ function addElementToBeginningOfArray(array, element) {
   return numbers
 }
 
-function destructivelyAddElementToBeginningOfArray() {
+function destructivelyAddElementToBeginningOfArray(array, element) {
   var numbers = [1]
   numbers.unshift ('foo')
   return numbers
 }
 
-function addElementToEndOfArray() {
+function addElementToEndOfArray(array, element) {
   var numbers = [1]
   numbers = [...numbers, 'foo']
   return numbers
 }
 
-function destructivelyAddElementToEndOfArray() {
+function destructivelyAddElementToEndOfArray(array, element) {
   var numbers = [1]
   numbers.push ('foo')
   return numbers
 }
 
-function accessElementInArray() {
+function accessElementInArray(array, element) {
   var numbers = [1]
 }
 
