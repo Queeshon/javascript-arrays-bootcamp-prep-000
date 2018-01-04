@@ -7,12 +7,13 @@ var ingredient6 = "garlic"
 
 var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
 
-function addElementToBeginningOfArray(numbers) {
+function addElementToBeginningOfArray(numbers, 'foo') {
   var numbers = [1]
-  numbers = ['foo', ...numbers]
+  numbers = ['foo',...numbers]
 }
 
-function destructivelyAddElementToBeginningOfArray(numbers) {
+function destructivelyAddElementToBeginningOfArray(numbers, 'foo') {
   var numbers = [1]
   numbers.unshift ('foo')
 }
+
