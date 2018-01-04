@@ -7,30 +7,39 @@ var ingredient6 = "garlic"
 
 var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
 
-function addElementToBeginningOfArray() {
-  var numbers = [1]
-  numbers = ['foo',...numbers]
-  return numbers
+function addElementToBeginningOfArray(array, 'foo') {
+  array = ['foo',...array]
+  return array
 }
 
-function destructivelyAddElementToBeginningOfArray() {
-  var numbers = [1]
-  numbers.unshift ('foo')
-  return numbers
+function destructivelyAddElementToBeginningOfArray(array, 'foo') {
+  array.unshift ('foo')
+  return array
 }
 
-function addElementToEndOfArray() {
-  var numbers = [1]
-  numbers = [...numbers, 'foo']
-  return numbers
+function addElementToEndOfArray(array, 'foo') {
+  array = [...array, 'foo']
+  return array
 }
 
-function destructivelyAddElementToEndOfArray() {
-  var numbers = [1]
-  numbers.push ('foo')
-  return numbers
+function destructivelyAddElementToEndOfArray(array, 'foo') {
+  array.push ('foo')
+  return array
 }
 
 function accessElementInArray() {
   var numbers = [1]
 }
+
+function destructivelyRemoveElementFromBeginningOfArray() {
+  
+}
+
+function removeElementFromBeginningOfArray() {
+  
+}
+
+function destructivelyRemoveElementFromEndOfArray() {
+  
+}
+
