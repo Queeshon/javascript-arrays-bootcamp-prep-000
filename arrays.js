@@ -16,4 +16,3 @@ function destructivelyAddElementToBeginningOfArray(numbers, 'foo') {
   var numbers = [1]
   numbers.unshift ('foo')
 }
-
