@@ -7,7 +7,7 @@ var ingredient6 = "garlic"
 
 var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
 
-function addElementToBeginningOfArray(numbers, 'foo') {
+function addElementToBeginningOfArray(array, element) {
   var numbers = [1]
   numbers = ['foo',...numbers]
   return numbers
