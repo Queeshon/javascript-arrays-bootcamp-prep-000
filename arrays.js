@@ -30,3 +30,7 @@ function destructivelyAddElementToEndOfArray() {
   numbers.push ('foo')
   return numbers
 }
+
+function accessElementInArray() {
+  var numbers = [1]
+}
